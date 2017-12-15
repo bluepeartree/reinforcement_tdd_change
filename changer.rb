@@ -13,7 +13,6 @@ def self.make_change(cents)
       end
     cents = cents - (number_of_coins * coin)
     end
-    break if remainder == 0
   end
   return change
 end
